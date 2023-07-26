@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Price Predictor</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Home Price Predictor</h1>
+        <form id="predictionForm">
+            <label for="bath">Bath</label>
+            <select id="bath" name="bath">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="3">4 </option>
+                <option value="3">5 </option>
+                <option value="3">6 </option>
+                <option value="3">7 </option>
+                <option value="3">8 </option>
+                <option value="3">9 </option>
+   
+            </select>
+
+            <label for="total_sqft">Total Square Feet</label>
+            <input type="number" id="total_sqft" name="total_sqft" required>
+
+            <label for="bhk">BHK</label>
+            <select id="bhk" name="bhk">
+                <option value="1">1</option>
+                <option value="2">2 </option>
+                <option value="3">3 </option>
+                <option value="3">4 </option>
+                <option value="3">5 </option>
+                <option value="3">6 </option>
+                <option value="3">7 </option>
+                <option value="3">8 </option>
+                <option value="3">9 </option>
+
+            </select>
+
+            <label for="location">Location</label>
+            <select id="uiLocation" name="location">
+            </select>
+
+            <button type="submit">Get Estimated Price</button>
+        </form>
+
+        <div id="result" style="display: none;">
+            <p id="estimatedPrice"></p>
+        </div>
+    </div>
+
+    <script src="s.js"></script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    letter-spacing: 2px;
+}
+
+body {
+    background-image: url('./background.jpg');
+    background-size: cover; /* Optional: Adjust the background size as per your preference */
+    background-repeat: no-repeat; /* Optional: Prevent the background image from repeating */
+  }
+
+.container {
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: center;
+    border-radius: 5px;
+    border: 2px solid #87CEFA;
+
+}
+
+h1 {
+    margin-top: 0;
+    color: #023974;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-size: large;
+    font-weight: bold;
+}
+
+select, input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #3975bf56;
+    color: #023974;
+    font-size: large;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #023974;
+    color: #d3d7dc;
+    font-size: large;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#result {
+    text-align: center;
+}
+
+#estimatedPrice {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000;
+}
