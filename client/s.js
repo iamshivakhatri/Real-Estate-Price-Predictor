@@ -55,7 +55,7 @@ form.addEventListener("submit", function (event) {
          console.log("check me out", data.estimated_price);
           resultSection.style.display = "block";
           const estimatedPriceElement = document.getElementById("estimatedPrice");
-          estimatedPriceElement.innerText = "Estimated Price: $" + data.estimated_price;
+          estimatedPriceElement.innerText = "Estimated Price: " + data.estimated_price + " Lakhs";
         
       })
       .catch((error) => {
